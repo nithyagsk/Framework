@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-09T18:31:21 IST" name="Suite" finished-at="2022-03-09T18:31:35 IST" duration-ms="14126">
+  <suite name="Suite" duration-ms="26001" started-at="2022-03-13T21:26:52 IST" finished-at="2022-03-13T21:27:18 IST">
     <groups>
     </groups>
-    <test started-at="2022-03-09T18:31:21 IST" name="Test" finished-at="2022-03-09T18:31:35 IST" duration-ms="14126">
+    <test name="Test" duration-ms="26001" started-at="2022-03-13T21:26:52 IST" finished-at="2022-03-13T21:27:18 IST">
       <class name="apptestcases.Applogintestcase">
-        <test-method is-config="true" signature="presetup()[pri:0, instance:apptestcases.Applogintestcase@306e95ec]" started-at="2022-03-09T18:31:21 IST" name="presetup" finished-at="2022-03-09T18:31:21 IST" duration-ms="568" status="PASS">
+        <test-method status="PASS" signature="presetup()[pri:0, instance:apptestcases.Applogintestcase@543c6f6d]" name="presetup" is-config="true" duration-ms="977" started-at="2022-03-13T21:26:51 IST" finished-at="2022-03-13T21:26:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- presetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:apptestcases.Applogintestcase@306e95ec]" started-at="2022-03-09T18:31:21 IST" name="setup" finished-at="2022-03-09T18:31:30 IST" duration-ms="8495" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:apptestcases.Applogintestcase@543c6f6d]" name="setup" is-config="true" duration-ms="8449" started-at="2022-03-13T21:26:52 IST" finished-at="2022-03-13T21:27:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginintoApp()[pri:0, instance:apptestcases.Applogintestcase@306e95ec]" started-at="2022-03-09T18:31:30 IST" name="LoginintoApp" finished-at="2022-03-09T18:31:34 IST" duration-ms="4723" status="PASS">
+        <test-method status="PASS" signature="LoginintoApp()[pri:1, instance:apptestcases.Applogintestcase@543c6f6d]" name="LoginintoApp" duration-ms="4712" started-at="2022-03-13T21:27:01 IST" finished-at="2022-03-13T21:27:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginintoApp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apptestcases.Applogintestcase@306e95ec]" started-at="2022-03-09T18:31:35 IST" name="teardown" finished-at="2022-03-09T18:31:35 IST" duration-ms="854" status="PASS">
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:apptestcases.Applogintestcase@543c6f6d]" name="teardownmethod" is-config="true" duration-ms="1649" started-at="2022-03-13T21:27:05 IST" finished-at="2022-03-13T21:27:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginintoApp status=SUCCESS method=Applogintestcase.LoginintoApp()[pri:1, instance:apptestcases.Applogintestcase@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- teardownmethod -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:apptestcases.Applogintestcase@543c6f6d]" name="setup" is-config="true" duration-ms="6701" started-at="2022-03-13T21:27:07 IST" finished-at="2022-03-13T21:27:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_002()[pri:2, instance:apptestcases.Applogintestcase@543c6f6d]" name="TC_002" duration-ms="3614" started-at="2022-03-13T21:27:14 IST" finished-at="2022-03-13T21:27:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:apptestcases.Applogintestcase@543c6f6d]" name="teardownmethod" is-config="true" duration-ms="811" started-at="2022-03-13T21:27:17 IST" finished-at="2022-03-13T21:27:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=SUCCESS method=Applogintestcase.TC_002()[pri:2, instance:apptestcases.Applogintestcase@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
       </class> <!-- apptestcases.Applogintestcase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
