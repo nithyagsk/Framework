@@ -5,7 +5,7 @@
     <classes>
       <class name="apptestcases.Applogintestcase">
         <methods>
-          <include name="TC_006"/>
+          <include name="TC_005"/>
           <include name="teardownmethod"/>
           <include name="setup"/>
           <include name="presetup"/>

@@ -65,10 +65,10 @@ public void forgotpasswordlink() {
 public void LoginFromReg() {
  
 	RmenuReglink.click();
-	System.out.println(driver.getTitle());
 	Rpgloginlink.click();
-	Assert.assertEquals(driver.getTitle(),"Account Login");
-	
+	System.out.println(driver.getTitle());
+	//Assert.assertEquals(driver.getTitle(),"Account Login");
+	Assert.assertEquals(driver.getTitle(),"Account Login" , "Not able to navigate to login page from registration page(login page link )");
 	/*if(driver.getTitle()=="Account Login") {
 		Assert.assertTrue(true, "Not able to navigate to login page from registration page(login page link )");
 	}*/
